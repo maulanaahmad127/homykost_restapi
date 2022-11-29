@@ -65,11 +65,11 @@ public class KosController {
         
         Kos kos = new Kos(
             kosData.getNama(),
+            kosData.getJenis(),
+            kosData.getAlamat(),
             kosData.getKeluarahan(),
             kosData.getKecamatan(),
             kosData.getKota(),
-            kosData.getJenis(),
-            kosData.getAlamat(),
             kosData.getHarga_per_bulan()
         );
 
